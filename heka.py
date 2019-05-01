@@ -59,7 +59,6 @@ def handleConnection(client):
     if not channel is None:
         channel.close()
 
-
 # Starts SSH server and provides error messages if the connection can't
 # be opened on the specified port
 
